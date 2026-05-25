@@ -21,6 +21,6 @@ docker build -t  webapp   .
 docker images
 
 # Run container from our Image
-docker run -P -d webapp
+docker run -d -p 5000:80 myapp
 docker ps
 
