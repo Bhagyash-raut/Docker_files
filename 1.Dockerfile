@@ -1,3 +1,5 @@
+batch updates changes
+
 #File
 FROM ubuntu:latest AS BUILD_IMAGE
 RUN apt update && apt install wget unzip -y
